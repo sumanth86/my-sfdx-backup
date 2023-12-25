@@ -133,4 +133,9 @@ public with sharing class AccountServiceLayer {
             throw new ASLException(nae.getMessage());
         }
     }
+    public static Account createDefaultAccount(){
+        Account acc = new Account();
+            acc.Name = 'Test Account';
+        return acc;
+    }
 }
