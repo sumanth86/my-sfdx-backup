@@ -138,4 +138,7 @@ public with sharing class AccountServiceLayer {
             acc.Name = 'Test Account';
         return acc;
     }
+    public static void valdiateProduct(){
+        //Impl
+    }
 }
